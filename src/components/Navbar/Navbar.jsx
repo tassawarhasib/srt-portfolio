@@ -3,7 +3,7 @@ import {getImageUrl} from "../../utils"
 
 import styles from "./Navbar.module.css";
 
-  export const Navbar = () => {
+const Navbar = () => {
   const[menuOpen,setMenuOpen] = useState(false);
   return (
     <nav className={styles.navbar}>
@@ -31,3 +31,5 @@ import styles from "./Navbar.module.css";
     </nav>
   );
 };
+
+export default Navbar

@@ -3,9 +3,9 @@ import React from "react";
 import styles from "./Projects.module.css";
 
 import projects from "../../data/project.json";
-import { ProjectCard } from "./ProjectCard";
+import ProjectCard from "./ProjectCard";
 
-export const Projects = () => {
+const Projects = () => {
   return (
     <section className={styles.container} id="projects">
       <h2 className={styles.title}>Projects</h2>
@@ -17,3 +17,5 @@ export const Projects = () => {
     </section>
   );
 };
+
+export default Projects

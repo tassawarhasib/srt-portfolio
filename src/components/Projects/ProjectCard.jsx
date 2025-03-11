@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./ProjectCard.module.css";
 
-export const ProjectCard = ({
+const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
 }) => {
   return (
@@ -31,3 +31,5 @@ export const ProjectCard = ({
     </div>
   );
 };
+
+export default ProjectCard
